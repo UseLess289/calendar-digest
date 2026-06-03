@@ -90,7 +90,7 @@ def build_message(events):
     lines = [f"📅 <b>{date_str}</b>\n"]
 
     if not events:
-        lines.append("Aucun événement prévu. Journée libre 🎉")
+        lines.append("Aucun événement prévu.")
         return "\n".join(lines)
 
     # Événements toute la journée en premier, puis tri par heure
