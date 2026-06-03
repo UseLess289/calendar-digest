@@ -1,0 +1,5 @@
+icalendar
+recurring-ical-events
+requests
+python-dotenv
+pytz
